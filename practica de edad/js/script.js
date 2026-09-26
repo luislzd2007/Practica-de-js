@@ -1,10 +1,10 @@
 const name = "Luis Lozada";
 
-let age = 18;
+let age = 19;
 
 let proyectofavorito = "Hallway"
 
-age = 19
+age = 20
 
 console.log(name);
 console.log(age);
