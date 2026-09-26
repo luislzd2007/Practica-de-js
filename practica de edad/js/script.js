@@ -1,29 +1,20 @@
-const name = "Luis Lozada";
+let edad = prompt("Ingresa tu edad:");
+edad = Number(edad);
 
-let age = 19;
-
-let proyectofavorito = "Hallway"
-
-age = 20
-
-console.log(name);
-console.log(age);
-console.log(proyectofavorito);
-
-console.log ("Mi proyecto favorito es " + proyectofavorito);
-
-function mostrarProyecto(texto){
-    console.log(texto)
+if (edad > 18) {
+  console.log("Eres mayor de edad");
+} else if (edad === 18) {
+  console.log("Tienes exactamente 18 años");
+} else {
+  console.log("Eres menor de edad");
 }
 
-mostrarProyecto(name)
-mostrarProyecto(age)
-mostrarProyecto(proyectofavorito.toUpperCase()) 
+console.log(edad === 18);
+console.log(edad == "18");
 
-if (age > 18){
-    console.log("Eres mayor de edad");
-} else if (age < 18){
-    console.log("Eres menor de edad");
-} else {
-    console.log("Empeiza a pagar el SAT");
+
+for (let i = 0; i <= 10; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
 }
